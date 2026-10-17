@@ -201,12 +201,12 @@ repository; each screenshot's sidecar lists exactly which appear.
 
 ## Assets drawn or generated in code
 
-These are original work by FilmCraft contributors under the project licence (MIT OR Apache-2.0). None
+These are original work by FilmCraft contributors under the project licence (MIT OR Apache-2.0), except the UI icons (see the first row). None
 is traced or derived from Adobe artwork.
 
 | Asset | Where |
 |---|---|
-| UI icons (tools, transport, panels, header) | `crates/ui-egui/src/icons.rs`: vector paths on a 16×16 grid |
+| UI icons (tools, transport, panels, header) | `assets/icons/`: 99 SVG files, one per icon, all listed above (96 Tabler Icons under MIT; 1 modified Tabler icon, SyncLock, from `lock`, MIT; 2 original drawings, MIT OR Apache-2.0). Drawn by `crates/ui-egui/src/icons_svg.rs` |
 | Source and Program range braces and trim hover cues | `crates/ui-egui/src/panels/monitor.rs` and `source_range.rs`: original generic vector shapes by FilmCraft contributors, MIT OR Apache-2.0; no third-party artwork |
 | Align / distribute / paragraph-alignment glyphs in the graphics panel | `crates/ui-egui/src/panels/graphics.rs` (`align_glyph`): bars and lines drawn with the egui painter |
 | Demo footage (ocean sunset, aurora, city night, dunes, forest, plasma), bars and tone, counting leader, colour matte | `crates/media/src/generators.rs` |
